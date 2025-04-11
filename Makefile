@@ -44,3 +44,5 @@ startSonyUPDR80MD:
 	modprobe g_printer idVendor=0x054C idProduct=0x3C3 bcdDevice=0x0108 iManufacturer="SONY" iProduct="UP-DR80MD" iSerialNumber="00000000" iPNPstring="MFG:SONY;MDL:UP-DR80MD;DES:Sony UP-DR80MD;CMD:SPJL-DS,SPDL-DS;CLS:PRINTER;  "
 startEpsonStylusPhotoRX610:
 	modprobe g_printer idVendor=0x04B8 idProduct=0x083C bcdDevice=0x0100 iManufacturer="" iProduct="" iSerialNumber="" iPNPstring="MFG:EPSON;CMD:ESCPL2,BDC,D4,D4PX,ESCPR2;MDL:Stylus Photo RX610;CLS:PRINTER;DES:Epson Stylus Photo RX610;VSTATUS:$HB0$FC0,ff,DN,IDLE,CUT;"
+startXeroxVersaLinkC600:
+	modprobe g_printer idVendor=0x0924 idProduct=0x8989 bcdDevice=0x0100 iManufacturer="" iProduct="" iSerialNumber="" iPNPstring="MANUFACTURER:Xerox;COMMAND SET:PJL,POSTSCRIPT;MODEL:VersaLink C600;CLASS:PRINTER;CID:XR_PS_XCPT_Color_A4;SN:123456;DESCRIPTION:Xerox VersaLink C600;"
