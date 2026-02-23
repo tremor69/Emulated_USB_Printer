@@ -80,7 +80,7 @@
 	// Prepare gpdl
 	char sys_cmd[1024];
 	sprintf(sys_cmd,
-		"%s -dNOPAUSE -sDEVICE=%s -sOutputFile=%s%s.%s %s",
+		"%s -dNOPAUSE -sDEVICE=%s -o %s%s.%s %s",
 		GPDL_BIN_FILE,
 		GPDL_SDEVICE_METHOD,
 		FILE_OUTPUT_PATH,
